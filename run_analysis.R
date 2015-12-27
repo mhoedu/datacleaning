@@ -1,5 +1,5 @@
 # runAnalysis.R:
-# This R script fulfill the requirement of Getting and CLeanning Data course final project. The project requirement include: 
+# This R script fulfills the requirement of Getting and CLeanning Data course final project. The project requirement include: 
 # Use  UCI training data set is available at:
 # http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 # The script will perform the following tasks beside from download UCI data set:
@@ -8,9 +8,9 @@
 #   3. Uses descriptive activity names to name the activities in the data set
 #   4. Appropriately labels the data set with descriptive variable names. 
 #   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-# Miscellaneous Notes: the use of tictoc package throughout  the script simply is an attempt to profile each task
-# aiming to refactor and improve each task as things go along
-#     https://cran.fhcrc.org/web/packages/tictoc/tictoc.pdf.
+# Miscellaneous Notes: the use of tictoc package throughout  the R script simply is an attempt to profile each task
+# aiming to refactor and improve each task as things go along 
+# Reference:    https://cran.fhcrc.org/web/packages/tictoc/tictoc.pdf.
 
 
 #Introduce R package pacman which is efficient for multiple download
@@ -125,4 +125,4 @@ UCIData.process = function(outputFile = "tidy.data") {
 ### Main:
 clrCon()
 UCIData.download(workDirectory = "C:/Rwork/datacleaning", overwriteFlag = FALSE)
-UCIData.process(outputFile = "tiddy.data")
+UCIData.process(outputFile = "tiddydata.txt")
