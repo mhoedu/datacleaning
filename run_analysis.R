@@ -95,21 +95,22 @@ UCIData.process = function(outputFile = "tidy.data") {
   showMsg(" ...Done",TRUE,FALSE)
   showMsg("   Prep and Merge Test, Train data sets  ",TRUE,TRUE)
   
-  # Bind data
+  
   comboTest <- cbind(as.data.table(Test.subject), Test.y, Test.x)
-  # Load and process X_train & y_train data.
+  
   Train.x <- read.table("download/UCI HAR Dataset/train/X_train.txt")
   Train.y <- read.table("download/UCI HAR Dataset/train/y_train.txt")
   Train.subject <- read.table("download/UCI HAR Dataset/train/subject_train.txt")
   names(Train.x) = ColumnList
+
   # Extract only the measurements on the mean and standard deviation for each measurement.
   Train.x = Train.x[,extract_columns]
-  # Load activity data
   Train.y[,2] = activity_labels[Train.y[,1]]
   names(Train.y) = labelCol[2:3]
   names(Train.subject) = labelCol[1]
-  # Bind data
+  
   comboTrain <- cbind(as.data.table(Train.subject),Train.y, Train.x)
+  
   # Merge test and train data
   mergedTestTrain = rbind(comboTest, comboTrain)
   measureLabels = setdiff(colnames(mergedTestTrain), labelCol)
