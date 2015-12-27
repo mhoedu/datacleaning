@@ -1,4 +1,4 @@
-# runAnalysis.R:
+# run_analysis.R:
 # This R script fulfills the requirement of Getting and CLeanning Data course final project. The project requirement include: 
 # Use  UCI training data set is available at:
 # http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -118,7 +118,7 @@ UCIData.process = function(outputFile = "tidy.data") {
    # Final preparation
   showMsg("   Cast merged sets and  write final tidy result to output file",TRUE,TRUE)
   tidyResult  = dcast(melt(mergedTestTrain,labelCol, measureLabels), Subject + ActivityType ~ variable, mean)
-  write.table(tidyResult, file = outputFile)
+  write.table(tidyResult, file = outputFile,row.name=FALSE)
   showMsg("",TRUE,FALSE)
 }
 
