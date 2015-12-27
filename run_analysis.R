@@ -93,11 +93,10 @@ UCIData.process = function(outputFile = "tidy.data") {
   names(Test.y) = labelCol[2:3] 
   names(Test.subject) = labelCol[1]
   showMsg(" ...Done",TRUE,FALSE)
+  showMsg("   Prep and Merge Test, Train data sets  ",TRUE,TRUE)
   
   # Bind data
   comboTest <- cbind(as.data.table(Test.subject), Test.y, Test.x)
-  
-  
   # Load and process X_train & y_train data.
   Train.x <- read.table("download/UCI HAR Dataset/train/X_train.txt")
   Train.y <- read.table("download/UCI HAR Dataset/train/y_train.txt")
@@ -112,14 +111,15 @@ UCIData.process = function(outputFile = "tidy.data") {
   # Bind data
   comboTrain <- cbind(as.data.table(Train.subject),Train.y, Train.x)
   # Merge test and train data
-   mergedTestTrain = rbind(comboTest, comboTrain)
-   measureLabels = setdiff(colnames(mergedTestTrain), labelCol)
-   
+  mergedTestTrain = rbind(comboTest, comboTrain)
+  measureLabels = setdiff(colnames(mergedTestTrain), labelCol)
+  showMsg(" ...Done",TRUE,FALSE)
+  
    # Final preparation
   showMsg("   Cast merged sets and  write final tidy result to output file",TRUE,TRUE)
   tidyResult  = dcast(melt(mergedTestTrain,labelCol, measureLabels), Subject + ActivityType ~ variable, mean)
   write.table(tidyResult, file = outputFile,row.name=FALSE)
-  showMsg("",TRUE,FALSE)
+  showMsg(" ...Done",TRUE,FALSE)
 }
 
 ### Main:
