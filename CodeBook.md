@@ -26,74 +26,74 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
  
 ###### Time domain body tri-axial acceleration variables:
  - Mean measurement for Time domain body Tri-axial acceleration:
-	-  tBodyAcc-mean()-X
-	-  tBodyAcc-mean()-Y
-	-  tBodyAcc-mean()-Z
+  -  tBodyAcc-mean()-X
+  -  tBodyAcc-mean()-Y
+  -  tBodyAcc-mean()-Z
  -  Standard deviation for Time domain body Tri-axial acceleration:
-	-  tBodyAcc-std()-X
-	-  tBodyAcc-std()-Y
-	-  tBodyAcc-std()-Z
+  -  tBodyAcc-std()-X
+  -  tBodyAcc-std()-Y
+  -  tBodyAcc-std()-Z
 ###### Time domain Gravity tri-axial acceleration variables:
  - Mean measurement for Gravity tri-axial acceleration:
-	- tGravityAcc-mean()-X
-	- tGravityAcc-mean()-Y
-	- tGravityAcc-mean()-Z
+  - tGravityAcc-mean()-X
+  - tGravityAcc-mean()-Y
+  - tGravityAcc-mean()-Z
  - Standard Deviation measurement for Gravity tri-axial acceleration:
-    - tGravityAcc-std()-X
-	- tGravityAcc-std()-Y
-	- tGravityAcc-std()-Z
+  - tGravityAcc-std()-X
+  - tGravityAcc-std()-Y
+  - tGravityAcc-std()-Z
 ######  Time domain body acceleration jerk tri-axial acceleration variables:
  - Mean measurement for body acceleration jerk tri-axial acceleration
-    - tBodyAccJerk-mean()-X
-	-tBodyAccJerk-mean()-Y
-    -tBodyAccJerk-mean()-Z
+  - tBodyAccJerk-mean()-X
+  - tBodyAccJerk-mean()-Y
+  - tBodyAccJerk-mean()-Z
  - Standard Deviation measurement for body acceleration jerk tri-axial acceleration
-	-tBodyAccJerk-std()-X
-    -tBodyAccJerk-std()-Y
-    -tBodyAccJerk-std()-Z
+  - tBodyAccJerk-std()-X
+  - tBodyAccJerk-std()-Y
+  - tBodyAccJerk-std()-Z
 ######  Time domain body gyroscope tri-axial acceleration :
  - Mean Measurement body gyroscope tri-axial acceleration variables:
-    -tBodyGyro-mean()-X
-    -tBodyGyro-mean()-Y
-    -tBodyGyro-mean()-Z
+  - tBodyGyro-mean()-X
+  - tBodyGyro-mean()-Y
+  - tBodyGyro-mean()-Z
  - Standard Deviation Measurement body gyroscope tri-axial acceleration variables:
-    -tBodyGyro-std()-X
-    -tBodyGyro-std()-Y
-    -tBodyGyro-std()-Z      
+  - tBodyGyro-std()-X
+  - tBodyGyro-std()-Y
+  - tBodyGyro-std()-Z      
 ######  Time domain body gyroscope jerk tri-axial acceleration:
  - Mean Measurement body gyroscope jerk tri-axial acceleration variables:
-	-tBodyGyroJerk-mean()-X
-    -tBodyGyroJerk-mean()-Y
-    -tBodyGyroJerk-mean()-Z
+  - tBodyGyroJerk-mean()-X
+  - tBodyGyroJerk-mean()-Y
+  - tBodyGyroJerk-mean()-Z
  - Standard Deviation Measurement jerk body gyroscope tri-axial acceleration variables:
-     -tBodyGyroJerk-std()-X
-     -tBodyGyroJerk-std()-Y
-     -tBodyGyroJerk-std()-Z
+  - tBodyGyroJerk-std()-X
+  - tBodyGyroJerk-std()-Y
+  - tBodyGyroJerk-std()-Z
 ######  Time domain body acceleration Magnitude: 
  - Mean Measurement body acceleration Magnitude variable:
-	 -tBodyAccMag-mean()
+  - tBodyAccMag-mean()
  - Standard Deviation Measurement body acceleration magnitude variable:
-     -tBodyAccMag-std()
+  - tBodyAccMag-std()
 ######  Time domain Gravity acceleration Magnitude: 
  - Mean Measurement gravity acceleration Magnitude variable:
-	 -tGravityAccMag-mean()
+  - tGravityAccMag-mean()
  - Standard Deviation Measurement gravity acceleration Magnitude variable:
-	 -tGravityAccMag-std()
+  - tGravityAccMag-std()
 ######  Time domain acceleration jerk Magnitude: 
  - Mean Measurement acceleration jerk magnitude variable:
-       -tBodyAccJerkMag-mean()
+   - tBodyAccJerkMag-mean()
  - Standard Deviation Measurement acceleration jerk magnitude variable:
-       -tBodyAccJerkMag-std()
+   - tBodyAccJerkMag-std()
 ######  Time domain Body Gyroscope  Magnitude: 
  - Mean Measurement of Body Gyroscope  Magnitude variable:
-  	   -tBodyGyroMag-mean()
+   - tBodyGyroMag-mean()
  - Standard Deviation of Body Gyroscope  Magnitude variable:
-       -tBodyGyroMag-std()
+   - tBodyGyroMag-std()
 ######  Time domain Body Gyroscope Jerk  Magnitude: 
  - Mean Measurement of Body Gyroscope Jerk Magnitude variable:
-       -tBodyGyroJerkMag-mean()
+   - tBodyGyroJerkMag-mean()
  - Standard Deviation of Body Gyroscope  Magnitude variable:
-       -tBodyGyroJerkMag-std()
+   - tBodyGyroJerkMag-std()
 
        -fBodyAcc-mean()-X
        -fBodyAcc-mean()-Y
