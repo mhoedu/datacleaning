@@ -9,7 +9,6 @@
       5. STANDING
       6. LAYING
 ###Measuremment Variables:
-
 The following convention will help in identifying the variables in this set.  
 
 The postfix in each UCIData variable, such as: -X, -Y, -Z denotes the Tri-axial signals in the X, Y and Z directions.  For each record, UCIData set provides the following : 
@@ -22,6 +21,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
     1. mean(): Mean value
     2. std(): Standard deviation
     3. meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+ 
 ######Time domain body tri-axial acceleration variables:
  - Mean measurement for Time domain body Tri-axial acceleration:
   -  tBodyAcc-mean()-X
@@ -31,6 +31,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   -  tBodyAcc-std()-X
   -  tBodyAcc-std()-Y
   -  tBodyAcc-std()-Z
+
 ######Time domain Gravity tri-axial acceleration variables:
  - Mean measurement for Gravity tri-axial acceleration:
   - tGravityAcc-mean()-X
@@ -40,6 +41,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tGravityAcc-std()-X
   - tGravityAcc-std()-Y
   - tGravityAcc-std()-Z
+
 ######Time domain body acceleration jerk tri-axial acceleration variables:
 - Mean measurement for body acceleration jerk tri-axial acceleration
   - tBodyAccJerk-mean()-X
@@ -49,6 +51,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tBodyAccJerk-std()-X
   - tBodyAccJerk-std()-Y
   - tBodyAccJerk-std()-Z
+
 ######Time domain body gyroscope tri-axial acceleration variables:
  - Mean Measurement body gyroscope tri-axial acceleration:
   - tBodyGyro-mean()-X
@@ -58,6 +61,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tBodyGyro-std()-X
   - tBodyGyro-std()-Y
   - tBodyGyro-std()-Z      
+
 ######Time domain body gyroscope jerk tri-axial variables:
  - Mean Measurement body  tri-axial gyroscope jerk:
   - tBodyGyroJerk-mean()-X
@@ -72,21 +76,25 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tBodyAccMag-mean()
  - Standard Deviation Measurement body acceleration magnitude variable:
   - tBodyAccMag-std()
+
 ######Time domain Gravity acceleration Magnitude: 
  - Mean Measurement gravity acceleration Magnitude variable:
   - tGravityAccMag-mean()
  - Standard Deviation Measurement gravity acceleration Magnitude variable:
   - tGravityAccMag-std()
+
 ######Time domain acceleration jerk Magnitude: 
  - Mean Measurement acceleration jerk magnitude variable:
    - tBodyAccJerkMag-mean()
  - Standard Deviation Measurement acceleration jerk magnitude variable:
    - tBodyAccJerkMag-std()
+
 ######Time domain Body Gyroscope  Magnitude: 
  - Mean Measurement of Body Gyroscope  Magnitude variable:
    - tBodyGyroMag-mean()
  - Standard Deviation of Body Gyroscope  Magnitude variable:
    - tBodyGyroMag-std()
+
 ######Time domain Body Gyroscope Jerk  Magnitude: 
  - Mean Measurement of Body Gyroscope Jerk Magnitude variable:
    - tBodyGyroJerkMag-mean()
