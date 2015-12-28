@@ -21,7 +21,7 @@ The postfix in each UCIData variable, such as: -X, -Y, -Z denotes the Tri-axial 
 The measurement variables in the tidydata.txt were extracted from UCI data source then consolidated in this tidy dataset. The estimated within this tidy data set  are identified in a fixed string like: 
     1. mean(): Mean value
     2. std(): Standard deviation
-    3. meanFreq(): Weighted average of the frequency components to obtain a mean frequency 
+    3. meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 ######Time domain body tri-axial acceleration variables:
  - Mean measurement for Time domain body Tri-axial acceleration:
   -  tBodyAcc-mean()-X
