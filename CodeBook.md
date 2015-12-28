@@ -22,7 +22,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
     2. std(): Standard deviation
     3. meanFreq(): Weighted average of the frequency components to obtain a mean frequency
  
-######Time domain body tri-axial acceleration variables:
+#####Time domain body tri-axial acceleration variables:
  - Mean measurement for Time domain body Tri-axial acceleration:
   -  tBodyAcc-mean()-X
   -  tBodyAcc-mean()-Y
