@@ -37,7 +37,8 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tGravityAcc-mean()-X
   - tGravityAcc-mean()-Y
   - tGravityAcc-mean()-Z
-- Standard Deviation measurement for Gravity tri-axial acceleration:
+
+ - Standard Deviation measurement for Gravity tri-axial acceleration:
   - tGravityAcc-std()-X
   - tGravityAcc-std()-Y
   - tGravityAcc-std()-Z
