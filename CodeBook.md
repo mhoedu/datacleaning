@@ -11,6 +11,10 @@
 ###Measuremment Variables:
 The following convention will help in identifying the variables in this set.  
 
+The prefix identify the data domain:
+- t for Time Domain
+- f for Frequency
+
 The postfix in each UCIData variable, such as: -X, -Y, -Z denotes the Tri-axial signals in the X, Y and Z directions.  For each record, UCIData set provides the following : 
 - Tri-axial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Tri-axial Angular velocity from the gyroscope. 
