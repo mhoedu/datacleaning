@@ -9,19 +9,42 @@
       5. STANDING
       6. LAYING
 ###Measuremment Variables:
-######tBodyAcc-mean()-X
-######tBodyAcc-mean()-Y
-######tBodyAcc-mean()-Z
-######tBodyAcc-std()-X
-######tBodyAcc-std()-Y
-######tBodyAcc-std()-Z
-######tGravityAcc-mean()-X
-######tGravityAcc-mean()-Y
-######tGravityAcc-mean()-Z
-######tGravityAcc-std()-X
-######tGravityAcc-std()-Y
-######tGravityAcc-std()-Z
-######tBodyAccJerk-mean()-X
+
+The following convention will help in identifying the variables in this set.  
+
+The postfix in each UCIData variable, such as: -X, -Y, -Z denotes the Tri-axial signals in the X, Y and Z directions.  For each record, UCIData set provide the following : 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+The measurement variables in the tidydata.txt were extracted from UCI data source then consolidated in this tidy dataset. The estimated within this tidy data set  are identified in a fixed string like: 
+	1. mean(): Mean value
+    2. std(): Standard deviation
+    3. meanFreq(): Weighted average of the frequency components to obtain a mean frequency 
+ 
+ 
+###### Time domain body tri-axial acceleration :
+ - Mean measurement for Time domain body Tri-axial acceleration:
+	-  tBodyAcc-mean()-X
+	-  tBodyAcc-mean()-Y
+	-  tBodyAcc-mean()-Z
+ -  Standard deviation for Time domain body Tri-axial acceleration:
+	-  tBodyAcc-std()-X
+	-  tBodyAcc-std()-Y
+	-  tBodyAcc-std()-Z
+###### Time domain Gravity tri-axial acceleration:
+ - Mean measurement for Gravity tri-axial acceleration:
+	- tGravityAcc-mean()-X
+	- tGravityAcc-mean()-Y
+	- tGravityAcc-mean()-Z
+ - Standard Deviation measurement for Gravity tri-axial acceleration:
+    - tGravityAcc-std()-X
+	- tGravityAcc-std()-Y
+	- tGravityAcc-std()-Z
+######  Time domain body acceleration jerk tri-axial acceleration:
+ - Mean measurement for body acceleration jerk tri-axial acceleration
+    - tBodyAccJerk-mean()-X
 ######tBodyAccJerk-mean()-Y
 ######tBodyAccJerk-mean()-Z
 ######tBodyAccJerk-std()-X
@@ -88,3 +111,4 @@
 ######fBodyBodyGyroJerkMag-mean()
 ######fBodyBodyGyroJerkMag-std()
 ######fBodyBodyGyroJerkMag-meanFreq()"
+
