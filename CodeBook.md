@@ -72,6 +72,7 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
   - tBodyGyroJerk-std()-X
   - tBodyGyroJerk-std()-Y
   - tBodyGyroJerk-std()-Z
+
 ######Time domain body acceleration Magnitude: 
  - Mean Measurement body acceleration Magnitude variable:
   - tBodyAccMag-mean()
