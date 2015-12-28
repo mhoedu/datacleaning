@@ -79,3 +79,18 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
 	 -tGravityAccMag-mean()
  - Standard Deviation Measurement gravity acceleration Magnitude variable:
 	 -tGravityAccMag-std()
+######  Time domain acceleration jerk Magnitude: 
+ - Mean Measurement acceleration jerk magnitude variable:
+       -tBodyAccJerkMag-mean()
+ - Standard Deviation Measurement acceleration jerk magnitude variable:
+       -tBodyAccJerkMag-std()
+######  Time domain Body Gyroscope  Magnitude: 
+ - Mean Measurement of Body Gyroscope  Magnitude variable:
+  	   -tBodyGyroMag-mean()
+ - Standard Deviation of Body Gyroscope  Magnitude variable:
+       -tBodyGyroMag-std()
+######  Time domain Body Gyroscope Jerk  Magnitude: 
+ - Mean Measurement of Body Gyroscope Jerk Magnitude variable:
+       -tBodyGyroJerkMag-mean()
+ - Standard Deviation of Body Gyroscope  Magnitude variable:
+       -tBodyGyroJerkMag-std()
