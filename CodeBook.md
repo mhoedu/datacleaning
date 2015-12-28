@@ -13,8 +13,8 @@
 The following convention will help in identifying the variables in this set.  
 
 The postfix in each UCIData variable, such as: -X, -Y, -Z denotes the Tri-axial signals in the X, Y and Z directions.  For each record, UCIData set provides the following : 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
+- Tri-axial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Tri-axial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
@@ -94,3 +94,43 @@ The measurement variables in the tidydata.txt were extracted from UCI data sourc
        -tBodyGyroJerkMag-mean()
  - Standard Deviation of Body Gyroscope  Magnitude variable:
        -tBodyGyroJerkMag-std()
+
+       -fBodyAcc-mean()-X
+       -fBodyAcc-mean()-Y
+       -fBodyAcc-mean()-Z
+       -fBodyAcc-std()-X
+       -fBodyAcc-std()-Y
+       -fBodyAcc-std()-Z
+       -fBodyAcc-meanFreq()-X
+       -fBodyAcc-meanFreq()-Y
+       -fBodyAcc-meanFreq()-Z
+       -fBodyAccJerk-mean()-X
+       -fBodyAccJerk-mean()-Y
+       -fBodyAccJerk-mean()-Z
+       -fBodyAccJerk-std()-X
+       -fBodyAccJerk-std()-Y
+       -fBodyAccJerk-std()-Z
+       -fBodyAccJerk-meanFreq()-X
+       -fBodyAccJerk-meanFreq()-Y
+       -fBodyAccJerk-meanFreq()-Z
+       -fBodyGyro-mean()-X
+       -fBodyGyro-mean()-Y
+       -fBodyGyro-mean()-Z
+       -fBodyGyro-std()-X
+       -fBodyGyro-std()-Y
+       -fBodyGyro-std()-Z
+       -fBodyGyro-meanFreq()-X
+       -fBodyGyro-meanFreq()-Y
+       -fBodyGyro-meanFreq()-Z
+       -fBodyAccMag-mean()
+       -fBodyAccMag-std()
+       -fBodyAccMag-meanFreq()
+       -fBodyBodyAccJerkMag-mean()
+       -fBodyBodyAccJerkMag-std()
+       -fBodyBodyAccJerkMag-meanFreq()
+       -fBodyBodyGyroMag-mean()
+       -fBodyBodyGyroMag-std()
+       -fBodyBodyGyroMag-meanFreq()
+       -fBodyBodyGyroJerkMag-mean()
+       -fBodyBodyGyroJerkMag-std()
+       -fBodyBodyGyroJerkMag-meanFreq()"
